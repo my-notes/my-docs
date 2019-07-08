@@ -10,7 +10,7 @@ module.exports = {
       repo: 'https://github.com/chillywg/trhtdocs/',
       
       // 如果你的文档不在仓库的根部
-      //docsDir: 'trhtdocs',
+      docsDir: 'docs',
       // 可选，默认为 master
       docsBranch: 'master',
       // 默认为 true，设置为 false 来禁用
