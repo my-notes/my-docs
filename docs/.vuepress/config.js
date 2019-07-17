@@ -1,5 +1,5 @@
 module.exports = {
-    base:'/my-docs',
+    base:'/my-docs/',
     title: '平台文档',
     description: 'Just playing around',
     head: [
@@ -46,7 +46,10 @@ module.exports = {
         {
           title: '私人笔记',
           collapsable: true,
-          children:[['/hi/车险相关疑问及解答.md', '车险相关疑问及解答']]
+          children:[
+            ['/hi/车险相关疑问及解答.md', '车险相关疑问及解答'],
+            ['/hi/直接引用md.md', '直接引用md']
+          ]
         }
       ],
       sidebarDepth: 2
