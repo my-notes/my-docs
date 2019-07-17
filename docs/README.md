@@ -1,6 +1,6 @@
 ﻿---
 home: true
-heroImage: /logo.jpg
+heroImage: logo.png
 heroText: 平台文档
 tagline: 注意事项，技术总结
 actionText: 进入文档 →
